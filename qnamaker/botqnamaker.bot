@@ -1,0 +1,52 @@
+{
+    "name": "botqnamaker",
+    "description": "",
+    "services": [
+        {
+            "type": "abs",
+            "tenantId": "<TENANT_ID>",
+            "subscriptionId": "<SUBSCRIPTION_ID>",
+            "resourceGroup": "<RESOURCE_GROUP>",
+            "serviceName": "<SERVICE_NAME>",
+            "name": "<BOT_NAME>",
+            "id": "1",
+            "appId": "<APP_ID>"
+        },
+        {
+            "type": "blob",
+            "connectionString": "<CONNECTION_STRING>",
+            "tenantId": "<TENANT_ID>",
+            "subscriptionId": "<SUBSCRIPTION_ID>",
+            "resourceGroup": "<RESOURCE_GROUP>",
+            "serviceName": "<STORAGE_NAME>",
+            "id": "2"
+        },
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "name": "development",
+            "id": "3"
+        },
+        {
+            "type": "endpoint",
+            "appId": "<APP_ID>",
+            "appPassword": "<APP_PASSWORD>",
+            "endpoint": "https://<BOT_NAME>.azurewebsites.net/api/messages",
+            "name": "production",
+            "id": "4"
+        },
+        {
+        "type": "qna",
+        "name": "<KB_NAME>",
+        "kbId": "<KB_ID>",
+        "subscriptionKey": "<SUBSCRIPTION_KEY>", 
+        "endpointKey": "<ENDPOINT_KEY>",
+        "hostname": "https://<SERVICE_NAME>.azurewebsites.net",
+        "id": "117"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0"
+}
