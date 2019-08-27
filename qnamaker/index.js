@@ -39,7 +39,7 @@ const DEV_ENVIRONMENT = 'development';
 const BOT_CONFIGURATION = (process.env.NODE_ENV || DEV_ENVIRONMENT);
 
 // QnA Maker knowledge base name as specified in .bot file.
-const QNA_CONFIGURATION = '<KB_NAME>';
+const QNA_CONFIGURATION = 'O365QnADB';
 
 // Get endpoint and QnA Maker configurations by service name.
 const endpointConfig = botConfig.findServiceByNameOrId(BOT_CONFIGURATION);

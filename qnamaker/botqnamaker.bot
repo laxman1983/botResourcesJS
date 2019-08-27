@@ -39,11 +39,11 @@
         },
         {
         "type": "qna",
-        "name": "<KB_NAME>",
-        "kbId": "<KB_ID>",
-        "subscriptionKey": "<SUBSCRIPTION_KEY>", 
-        "endpointKey": "<ENDPOINT_KEY>",
-        "hostname": "https://<SERVICE_NAME>.azurewebsites.net",
+        "name": "O365QnADB",
+        "kbId": "6d8b3aa4-bf8b-4eff-a4b8-da5987593c95",
+        "subscriptionKey": "a95bce9b1eda4ab58fc34ffad6fda60c", 
+        "endpointKey": "7d076a77-8742-4db3-9b9c-695868067250",
+        "hostname": "https://basfo365qna.azurewebsites.net/qnamaker",
         "id": "117"
         }
     ],
